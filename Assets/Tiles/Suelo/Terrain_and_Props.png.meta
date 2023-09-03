@@ -1,0 +1,2129 @@
+fileFormatVersion: 2
+guid: d314a4f530bfed24a96f58a7ad333fec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terrain_and_Props_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6feb4e294d24408f7bdd2cec1be2f
+      internalID: -1635267331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defc057682b52df4aa744cd327b1238f
+      internalID: 2069472425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6e8a834dea8d549a63a6f18861e508
+      internalID: 1350613715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a0b6eee0992046acceb8d038cace1
+      internalID: 1377410724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0e0538f03437b479ca02a0e3fb6df6
+      internalID: -1926051932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a6b9d0fde023449514c646b14fb60
+      internalID: -1209263543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dd7f27caca76647ad3b05b5113ae73
+      internalID: 1908719244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 504
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f4ba147d11984a8facc6843f536c4
+      internalID: 737176478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a0d567c6b7c34b986b72e0438c4ea
+      internalID: 185038168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788865d7b71c8944892ca602af7f35af
+      internalID: 2079003170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b73ba47abce04792529b6c06f27c6
+      internalID: 1330618918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a04806c9d6ddff4aae10fd37cccfa1e
+      internalID: 1564756503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa18327737659142b8603ae043db5b2
+      internalID: 1645551453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e671356af6d9db84392592ca668a1d9a
+      internalID: -1920198056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffcbb9391c80c84fa35b7aa807c990b
+      internalID: 1891452215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 464
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faefa6777055ab479b92e46f9994322
+      internalID: 288000154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd94353d9dd9b34c840ff186af28a37
+      internalID: -780808318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693a39d68e23688439b89d5c4227b44b
+      internalID: 1072860973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd086f2aa3a2f45bf47789533e131d
+      internalID: 2013657309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d757bef047072489bba8c8a1ba411a
+      internalID: -748829522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd14a1405955c144a0cd408285ca2cf
+      internalID: -138426167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f85f0eeb5ffdf4aa3c369cf1de9131
+      internalID: -1956212677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f41c5c3a62d974a891b0faf89f6ab2
+      internalID: 685567963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 424
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca27f01e783b1a47bedd2585b26c7d0
+      internalID: 1014134962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658c6d98a0f59e34e87c65cadaf93a43
+      internalID: -180103185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72410922647af84bb188fa535933e02
+      internalID: 1716475536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394440e9d426a0479e52b7a7124a359
+      internalID: 1058210610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8badf3471ed26bd499c22a954fec4459
+      internalID: -1053226312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dd061992f5f5f4695adb992bf13a02
+      internalID: -700974197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f212929b629c43a7b130879311687
+      internalID: -384154654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ac39c0cd05cc468a991a602b97e04
+      internalID: -850982807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 384
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437f837392eb4ea44aff10b7e36ff98a
+      internalID: -35996137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc94572c7e296f42ac3fccc296a9eed
+      internalID: 319094069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3178e4ae9db23941b163d3784bc3fb5
+      internalID: 1682267677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690dcd984de9f2547809bacace823f79
+      internalID: 1127511021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac513c0cf51ce8842b3d3e801c9d9612
+      internalID: 916317582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b7b7978bce26d449e22a9017f6ddca
+      internalID: -1722159771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b705356f704c184490071f3fd2c07ca
+      internalID: 1946516201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce110826c3bd394bbceeef14cd567e0
+      internalID: 144034991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91fbf775ef0d9741b1370dfca917171
+      internalID: -177397218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d950f4ca8914f9648b97927afde2fa77
+      internalID: -126482162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 304
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b7ed2ac7f238a479fbcce9a56ea4b0
+      internalID: 325557659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df78e8bab6568d54594427615e46f994
+      internalID: -69015562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96fdfefdd8c39c4f950f1d33f569d2f
+      internalID: 528763430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b0620312597143bb54fdcc561e9e2
+      internalID: 1451374804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1379abf991cf86047bba342af9f29e58
+      internalID: -2031652392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e64b57b0c4a14fa8fb03fedc10452
+      internalID: 1321073229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_47
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 264
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a164ae9faa53484484b1a5f2210a9e5
+      internalID: 1763303249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbfd9a3ead8c9c4e8954c2eb88bd040
+      internalID: 190708098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572643bd3ae2f04590797d4cccf6860
+      internalID: 904809091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7f99ebf7628f646a0df36a7992557b
+      internalID: -305979646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca51dd0ecf4cf48489efc1e6102e1361
+      internalID: -218557191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301df4458f4826f4fa56e3a54defe4c4
+      internalID: -140501736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b16ebccaa58e846b54fc995cce23c4
+      internalID: 1238644986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73b436ab1644a44e8cd19d17db61a3a
+      internalID: -1600582459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_55
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 224
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7ee79480831484ab99ab5222b31678
+      internalID: -1001648218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a5b9424fc9e79478cb1edd07246179
+      internalID: 196855268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002fbd2b3944cbc43b4cbdbe739875bb
+      internalID: 272640835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee861ec07da388947bfd279345d21209
+      internalID: -1257504282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b2c9efdb308ae4ab21a43e5a779f00
+      internalID: 450568025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fa79e87481645428f42c855e99ea4c
+      internalID: 1803765864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2dbb3245423f4aa020c02a05e29af
+      internalID: 1140560040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291f214d86ad8ad40b09d5624ce7a900
+      internalID: 80147814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_63
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 184
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be3114fdef91564891478fe597afa52
+      internalID: -1090965000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643545e6a5e070144914cda1dfc96ba5
+      internalID: -899477267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9bc87db394c264a96ae1e6aa31fa39
+      internalID: 311861543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e420bcb8284314b88f5867735a7c54
+      internalID: -616327836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_67
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54e89de087aef04caaae0353c5ccea4
+      internalID: -1852425060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08696d2ee471fa54c8782b8adfc38a38
+      internalID: -755442609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_69
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e1a20dfd796a345a385639c639c4c3
+      internalID: 986080673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23adefd8cb19d44a6915f21f6fc842
+      internalID: 1609459315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253feaa184b9aac43bb18bb028181a64
+      internalID: 327831991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_72
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bb4eb634c541f4991558fbc45f8024
+      internalID: -1746115525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60071ba77c004ad428be0a702b344a66
+      internalID: -1328158023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_74
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101cdee514165e41aeec8ba28d41be6
+      internalID: 283764564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609a664343c963e4981596442d7d93fd
+      internalID: -41240531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_76
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6e98e5d055bb4692303ee23ab5b17
+      internalID: 570487595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a04f64aacc80d8409498be6e08ffd48
+      internalID: 1394990894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfbaa9f53490a469406c3fec668f2d
+      internalID: 1425307606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2189d6878bdef42941428f0187ea6f
+      internalID: -1357982508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0814e3e5cf915409b78d0fe16bf569
+      internalID: 595064373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceb3de7af7137c419a0ce14cb3a24f5
+      internalID: 563691676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a4871b3273da4c8d1f710dcc97f17
+      internalID: -862241469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_83
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab51ff7bbd8f7504ca0d2dba3b94b3ca
+      internalID: -515390378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80169a91ee727b34fac54ff9c76d9c23
+      internalID: 510893329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0414d121dc1b419cce499256b759f
+      internalID: 588324343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_86
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c178bd703270a40a0d5bcd87325d3e
+      internalID: -1752430390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8327a3ccbbb9a41ac743455a8dfc24
+      internalID: -1990114536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_88
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400e996529fe73f4bb552a22e24c03d0
+      internalID: -431925889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8bb3e0a747b1149a262083281b8a05
+      internalID: 56004910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_and_Props_90
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 24
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0023379afe22e249b0bc2187c0bc87e
+      internalID: 1877583215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Terrain_and_Props_0: -1635267331
+      Terrain_and_Props_1: 2069472425
+      Terrain_and_Props_10: 1330618918
+      Terrain_and_Props_11: 1564756503
+      Terrain_and_Props_12: 1645551453
+      Terrain_and_Props_13: -1920198056
+      Terrain_and_Props_14: 1891452215
+      Terrain_and_Props_15: 288000154
+      Terrain_and_Props_16: -780808318
+      Terrain_and_Props_17: 1072860973
+      Terrain_and_Props_18: 2013657309
+      Terrain_and_Props_19: -748829522
+      Terrain_and_Props_2: 1350613715
+      Terrain_and_Props_20: -138426167
+      Terrain_and_Props_21: -1956212677
+      Terrain_and_Props_22: 685567963
+      Terrain_and_Props_23: 1014134962
+      Terrain_and_Props_24: -180103185
+      Terrain_and_Props_25: 1716475536
+      Terrain_and_Props_26: 1058210610
+      Terrain_and_Props_27: -1053226312
+      Terrain_and_Props_28: -700974197
+      Terrain_and_Props_29: -384154654
+      Terrain_and_Props_3: 1377410724
+      Terrain_and_Props_30: -850982807
+      Terrain_and_Props_31: -35996137
+      Terrain_and_Props_32: 319094069
+      Terrain_and_Props_33: 1682267677
+      Terrain_and_Props_34: 1127511021
+      Terrain_and_Props_35: 916317582
+      Terrain_and_Props_36: -1722159771
+      Terrain_and_Props_37: 1946516201
+      Terrain_and_Props_38: 144034991
+      Terrain_and_Props_39: -177397218
+      Terrain_and_Props_4: -1926051932
+      Terrain_and_Props_40: -126482162
+      Terrain_and_Props_41: 325557659
+      Terrain_and_Props_42: -69015562
+      Terrain_and_Props_43: 528763430
+      Terrain_and_Props_44: 1451374804
+      Terrain_and_Props_45: -2031652392
+      Terrain_and_Props_46: 1321073229
+      Terrain_and_Props_47: 1763303249
+      Terrain_and_Props_48: 190708098
+      Terrain_and_Props_49: 904809091
+      Terrain_and_Props_5: -1209263543
+      Terrain_and_Props_50: -305979646
+      Terrain_and_Props_51: -218557191
+      Terrain_and_Props_52: -140501736
+      Terrain_and_Props_53: 1238644986
+      Terrain_and_Props_54: -1600582459
+      Terrain_and_Props_55: -1001648218
+      Terrain_and_Props_56: 196855268
+      Terrain_and_Props_57: 272640835
+      Terrain_and_Props_58: -1257504282
+      Terrain_and_Props_59: 450568025
+      Terrain_and_Props_6: 1908719244
+      Terrain_and_Props_60: 1803765864
+      Terrain_and_Props_61: 1140560040
+      Terrain_and_Props_62: 80147814
+      Terrain_and_Props_63: -1090965000
+      Terrain_and_Props_64: -899477267
+      Terrain_and_Props_65: 311861543
+      Terrain_and_Props_66: -616327836
+      Terrain_and_Props_67: -1852425060
+      Terrain_and_Props_68: -755442609
+      Terrain_and_Props_69: 986080673
+      Terrain_and_Props_7: 737176478
+      Terrain_and_Props_70: 1609459315
+      Terrain_and_Props_71: 327831991
+      Terrain_and_Props_72: -1746115525
+      Terrain_and_Props_73: -1328158023
+      Terrain_and_Props_74: 283764564
+      Terrain_and_Props_75: -41240531
+      Terrain_and_Props_76: 570487595
+      Terrain_and_Props_77: 1394990894
+      Terrain_and_Props_78: 1425307606
+      Terrain_and_Props_79: -1357982508
+      Terrain_and_Props_8: 185038168
+      Terrain_and_Props_80: 595064373
+      Terrain_and_Props_81: 563691676
+      Terrain_and_Props_82: -862241469
+      Terrain_and_Props_83: -515390378
+      Terrain_and_Props_84: 510893329
+      Terrain_and_Props_85: 588324343
+      Terrain_and_Props_86: -1752430390
+      Terrain_and_Props_87: -1990114536
+      Terrain_and_Props_88: -431925889
+      Terrain_and_Props_89: 56004910
+      Terrain_and_Props_9: 2079003170
+      Terrain_and_Props_90: 1877583215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
