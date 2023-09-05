@@ -19,7 +19,7 @@ public class PortalHongoController : MonoBehaviour
         tiempoCrear += Time.deltaTime;
         if(tiempoCrear >= 5f) {
             tiempoCrear = 0f;
-            Debug.Log("Correr izquierda :" + tiempoCrear); 
+            //Debug.Log("Correr izquierda :" + tiempoCrear); 
             Instantiate(comerHongo,transform.position,Quaternion.identity);
         }
     }

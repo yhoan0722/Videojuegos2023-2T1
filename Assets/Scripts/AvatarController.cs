@@ -34,10 +34,12 @@ public class AvatarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(live) {
+            
                         
             if(Input.GetKeyDown(KeyCode.RightArrow)) {
-                Derecha();
+                Derecha();               
             }
             if(Input.GetKeyUp(KeyCode.RightArrow)) {
                 DetenerDerecha();
@@ -45,9 +47,9 @@ public class AvatarController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.LeftArrow)) {
                 Izquierda();
             }
-             if(Input.GetKeyUp(KeyCode.LeftArrow)) {
+            if(Input.GetKeyUp(KeyCode.LeftArrow)) {
                 DetenerIzquierda();
-            }            
+            }       
 
             if(Input.GetKeyUp(KeyCode.Space)) {
                 Saltar();
@@ -55,45 +57,32 @@ public class AvatarController : MonoBehaviour
             if(Input.GetKeyUp(KeyCode.F)) {
                 Disparar();
             }
-           
         }
-
-       
     }
     void SetAnimacion(int animacion) {
         animator.SetInteger("estado",animacion);
     }
-
      void crearBala(float velocidad) {
         
         if(sr.flipX == false){
             var posicion =transform.position + new Vector3(1.5f,0,0);
             var gb = Instantiate(bala, posicion ,Quaternion.identity);
             var controlador = gb.GetComponent<BalaController>();
-            controlador.darvelocidadx(5f);
         } else {
             var posicion =transform.position + new Vector3(-1.5f,0,0);
             var gb = Instantiate(bala,posicion,Quaternion.identity);
             var controlador = gb.GetComponent<BalaController>();
-            controlador.darvelocidadx(-5f);
         }
     }
-
     void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag ==  "Enemy") {
             gameManagerController.perderVidas();
         }
-       
-       
     }
-
     public void Saltar() {
-        //sr.flipX = true ;
         rb.AddForce(new Vector2(0,jumForce),ForceMode2D.Impulse);
-        //SetAnimacion(JUMP);
-        
+        //SetAnimacion(JUMP);  
     }
-
     public void Derecha(){
         sr.flipX = false ;
         rb.velocity = new Vector2(vRun,rb.velocity.y);
@@ -111,8 +100,8 @@ public class AvatarController : MonoBehaviour
         SetAnimacion(RUN);
     }
 
-    public void DetenerIzquierda(){
-        sr.flipX = false;
+   public void DetenerIzquierda(){
+        sr.flipX = true;
         rb.velocity = new Vector2(0,rb.velocity.y);
         SetAnimacion(IDLE);
     }
