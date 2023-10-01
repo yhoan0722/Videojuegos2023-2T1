@@ -17,7 +17,7 @@ public class GenerarEnemigosController : MonoBehaviour
     void Update()
     {
         tiempoCrear += Time.deltaTime;
-        if(tiempoCrear >= 3f) {
+        if(tiempoCrear >= 5f) {
             tiempoCrear = 0f;
             Debug.Log("Correr izquierda :" + tiempoCrear); 
             Instantiate(Enemigo,transform.position,Quaternion.identity);

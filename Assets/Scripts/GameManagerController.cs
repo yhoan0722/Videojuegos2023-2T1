@@ -9,11 +9,12 @@ public class GameManagerController : MonoBehaviour
      
     [SerializeField] private GameObject GameOver;
     private AudioSource audioSource;
+    public AudioClip monedaSound;
     public AudioClip gameOverSound;
     public Text textoMuertos; 
     public Text textoVidas;
     public Text textoMonedas;
-    public int contadorVidas;
+    public float contadorVidas;
     // public int contadorBalas;
     public int contadorMuertos;
     public int contadorMonedas;
@@ -64,6 +65,7 @@ public class GameManagerController : MonoBehaviour
     }
      public void comerMonedas() {
         contadorMonedas++;
+        audioSource.PlayOneShot(monedaSound);
         printMonedas();
     }
 }

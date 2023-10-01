@@ -6,10 +6,12 @@ public class AvatarController : MonoBehaviour
 {
     bool live = true;
     // Start is called before the first frame update
+    [SerializeField] public float vida;
+    [SerializeField] public float maximoVida;
+    [SerializeField] public BarraVida barraVida;
     SpriteRenderer sr;
     Rigidbody2D rb;
     Animator animator;
-
     public GameObject bala; 
     public GameManagerController gameManagerController;
     public AudioClip saltosound;
@@ -30,6 +32,8 @@ public class AvatarController : MonoBehaviour
     public bool enSuelo = true;
     void Start()
     {
+        vida = maximoVida;
+        barraVida.InicializarBarraVida(vida);
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -80,6 +84,8 @@ public class AvatarController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag ==  "Enemy") {
             gameManagerController.perderVidas();
+            vida--;
+            barraVida.CambiarVidaActual(vida);
         }
         if (other.gameObject.tag == "Mapa"){
             enSuelo = true; // El jugador está en el suelo. 
