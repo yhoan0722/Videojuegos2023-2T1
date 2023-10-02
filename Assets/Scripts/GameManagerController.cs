@@ -8,6 +8,7 @@ public class GameManagerController : MonoBehaviour
 {    
      
     [SerializeField] private GameObject GameOver;
+    //[SerializeField] private GameObject Gano;
     private AudioSource audioSource;
     public AudioClip monedaSound;
     public AudioClip gameOverSound;
@@ -15,7 +16,6 @@ public class GameManagerController : MonoBehaviour
     public Text textoVidas;
     public Text textoMonedas;
     public float contadorVidas;
-    // public int contadorBalas;
     public int contadorMuertos;
     public int contadorMonedas;
     
@@ -57,8 +57,8 @@ public class GameManagerController : MonoBehaviour
         contadorMuertos++;
         printMuertos();
         if(contadorMuertos==5){
-            SceneManager.LoadScene("Scene2");
-        }    
+            SceneManager.LoadScene("Scene2");            
+        }
     }
    public void printMonedas() {
         textoMonedas.text = "Monedas: " + contadorMonedas;
@@ -66,6 +66,6 @@ public class GameManagerController : MonoBehaviour
      public void comerMonedas() {
         contadorMonedas++;
         audioSource.PlayOneShot(monedaSound);
-        printMonedas();
+        printMonedas();        
     }
 }
